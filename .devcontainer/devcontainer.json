@@ -1,6 +1,5 @@
 {
-    "image": "ghcr.io/ucsd-e4e/aid-audio-sim",
-	"runArgs": ["--platform=linux/amd64" ],
+    "dockerComposeFile": "compose.yaml",
 	"postCreateCommand": "pip install -r requirements.txt",
 	"customizations": {
 		"vscode": {
