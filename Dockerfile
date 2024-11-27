@@ -3,6 +3,7 @@ FROM --platform=linux/amd64 ubuntu:24.04
 RUN apt-get update && apt-get upgrade -y && \
     apt-get install -y --no-install-recommends \
     sudo \
+    openssh-client \
     build-essential \
     cmake \
     git \
