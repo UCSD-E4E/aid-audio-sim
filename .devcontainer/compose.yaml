@@ -1,4 +1,0 @@
-services:
-  some-service-only-as-amd64:
-    platform: linux/amd64
-    image: ghcr.io/ucsd-e4e/aid-audio-sim
