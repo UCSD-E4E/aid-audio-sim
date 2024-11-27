@@ -1,1 +1,0 @@
-FROM --platform=linux/amd64 ghcr.io/ucsd-e4e/aid-audio-sim:latest

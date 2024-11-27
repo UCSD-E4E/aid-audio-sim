@@ -1,0 +1,6 @@
+services:
+  aid-audio-sim:
+    image: ghcr.io/ucsd-e4e/aid-audio-sim:latest
+    platform: linux/amd64
+    volumes:
+      - ..:/workspace:cached
